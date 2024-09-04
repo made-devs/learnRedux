@@ -6,7 +6,6 @@ import App from './App.jsx';
 
 import store from './store.jsx';
 
-store.dispatch({ type: 'account/deposit', payload: 250 });
 console.log(store.getState());
 
 createRoot(document.getElementById('root')).render(
